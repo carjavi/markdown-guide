@@ -1,8 +1,8 @@
 <p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/markdown_logo.png" height="100" alt=" " /></p>
 <br>
-<h1 align="center">Markdown Guide</h1>
+<h1 align="center">Markdown Guide</h1> 
 <h4 align="right">Aug 22</h4>
-<br>
+
 
 # Header
 
@@ -185,20 +185,74 @@ Web:
 <div style="text-align: right"> Aug 22</div>
 <h4 align="right">derecha2</h4>
 
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/markdown_logo.png" height="100" alt=" " /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/sample.jpg" height="100" alt=" " /></p>
+
+<center>
+    <img src="https://myoctocat.com/assets/images/base-octocat.svg">
+</center>
+
+<p align="center">
+  <img width="200" src="https://opencollective.com/debug/backer/0/avatar.svg" alt="Material Bread logo">
+</p>
 ```
 <center> center </center> 
 <div style="text-align: right"> derecha</div>
 <h4 align="right">derecha2</h4>
 <p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/sample.jpg" height="100" alt=" " /></p>
 
+<center>
+    <img src="https://myoctocat.com/assets/images/base-octocat.svg">
+</center>
+
+<p align="center">
+  <img width="200" src="https://opencollective.com/debug/backer/0/avatar.svg" alt="Material Bread logo">
+</p>
+
 <br>
 
 
 ## Linking Images
 
+```
+<a href="url-here" target="_blank"><img src="https://opencollective.com/debug/backer/0/avatar.svg"></a>
+
+<center>
+    <img src="https://myoctocat.com/assets/images/base-octocat.svg">
+</center>
+
+<a href="https://heroku.com/deploy">
+  <img  align="right"  src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+```
+<a href="url-here" target="_blank"><img src="https://opencollective.com/debug/backer/0/avatar.svg"></a>
+<br>
+
+<a href="https://heroku.com/deploy">
+  <img  align="right"  src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+
+## Shieds 
+
+```
+<img src="https://img.shields.io/badge/Python-3.7-<background color>.svg?&style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Javascript-3.7-<background color>.svg?&style=for-the-badge&logo=javascript">
+<img src="https://img.shields.io/badge/linux-3.7-<background color>.svg?&style=for-the-badge&logo=linux">
+```
+<img src="https://img.shields.io/badge/Python-3.7-<background color>.svg?&style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Javascript-3.7-<background color>.svg?&style=for-the-badge&logo=javascript">
+<img src="https://img.shields.io/badge/linux-20.4-<background color>.svg?&style=for-the-badge&logo=linux">
 
 <br>
+
+## Personalied Shieds Static
+you go to:
+```
+https://shields.io/
+```
+<a href="https://shields.io" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/shields.png"></a>
+<br>
+
+
 
 ## Local image github
 route image:
