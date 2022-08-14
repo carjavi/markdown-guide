@@ -144,9 +144,12 @@ See the section on [`code`](#code).<br>
 # Images
 local file:
 ```
-![img1](/ruta/a/la/imagen.jpg) 
+![img1](/ruta/a/la/imagen.jpg)
+![Screenshot](screenshot.png) // la raiz
+![Optional Text](../master/myFolder/image.png) // relativa
 ![img2](/ruta/a/la/imagen.jpg "Título alternativo")
 ![Screenshot](/screenshots/control_suitcase.png?raw=true) 
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 ```
 Web:
 ```
@@ -194,6 +197,14 @@ Web:
 <p align="center">
   <img width="200" src="https://opencollective.com/debug/backer/0/avatar.svg" alt="Material Bread logo">
 </p>
+
+|First Image|Second Image|
+|:-:|:-:|
+|![First Image](https://images.pexels.com/photos/585759/pexels-photo-585759.jpeg?h=750&w=1260)|![Second Image](https://images.pexels.com/photos/1335115/pexels-photo-1335115.jpeg?h=750&w=1260)|
+
+<img align="right" width="100" height="100" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, 
 ```
 <center> center </center> 
 <div style="text-align: right"> derecha</div>
@@ -207,6 +218,32 @@ Web:
 <p align="center">
   <img width="200" src="https://opencollective.com/debug/backer/0/avatar.svg" alt="Material Bread logo">
 </p>
+
+|First Image|Second Image|
+|:-:|:-:|
+|![First Image](https://images.pexels.com/photos/585759/pexels-photo-585759.jpeg?h=750&w=1260)|![Second Image](https://images.pexels.com/photos/1335115/pexels-photo-1335115.jpeg?h=750&w=1260)|
+
+<img align="right" width="100" height="100" src="https://media.tenor.com/images/6a136e1c2d7b30298a5b657348097a60/tenor.gif">
+
+At the 2019 rendition of E3, an eccentric gamer in attendance interrupted Keanu Reeves' presentation of the role-playing game (RPG) Cyberpunk 2077, loudly claiming, 
+
+<br>
+
+## Image in paragraphs: 
+```
+![alt text][id]
+
+[id]: /url/to/img.jpg "Título"
+
+De esta forma podrías insertar una imagen
+![nombre de la imagen][img1]
+O dos, sin ensuciar tu espacio de escritura.
+![nombre de la imagen2][img2] 
+
+[img1]: /ruta/a/la/imagen.jpg "Título alternativo"
+[img2]: /ruta/a/la/imagen2.jpg "Título alternativo"
+```
+
 
 <br>
 
@@ -233,26 +270,45 @@ Web:
 
 ## Shieds 
 
-```
+``` 
+https://img.shields.io/badge/<your label>-<value>-<background color>.svg?&style=for-the-badge&logo=<icon here>
+
+``` 
+
+``` 
 <img src="https://img.shields.io/badge/Python-3.7-<background color>.svg?&style=for-the-badge&logo=python">
+
 <img src="https://img.shields.io/badge/Javascript-3.7-<background color>.svg?&style=for-the-badge&logo=javascript">
+
 <img src="https://img.shields.io/badge/linux-3.7-<background color>.svg?&style=for-the-badge&logo=linux">
+
+<img src="https://img.shields.io/badge/twitter-mohammed__16695-1da1f2.svg?&style=for-the-badge&logo=twitter">
 ```
 <img src="https://img.shields.io/badge/Python-3.7-<background color>.svg?&style=for-the-badge&logo=python">
 <img src="https://img.shields.io/badge/Javascript-3.7-<background color>.svg?&style=for-the-badge&logo=javascript">
 <img src="https://img.shields.io/badge/linux-20.4-<background color>.svg?&style=for-the-badge&logo=linux">
+<img src="https://img.shields.io/badge/twitter-mohammed__16695-1da1f2.svg?&style=for-the-badge&logo=twitter">
 
 <br>
 
-## Personalied Shieds Static
-you go to:
+## Custotm Shieds Static
+go to:
 ```
 https://shields.io/
 ```
 <a href="https://shields.io" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/shields.png"></a>
+
+format:
+```
+https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+![etiq1](https://img.shields.io/badge/OS-Rasbian%20GNU%20linux-green>)
+![etiq2](https://img.shields.io/badge/Hardware-raspberry%20ver%204-red>)
+```
+![etiq1](https://img.shields.io/badge/OS-Rasbian%20GNU%20linux-green>)
+![etiq2](https://img.shields.io/badge/Hardware-raspberry%20ver%204-red>)
+
+
 <br>
-
-
 
 ## Local image github
 route image:
@@ -265,6 +321,314 @@ format:
 <img src="https://raw.githubusercontent.com/carjavi/install-nodejs-ARM/master/img/nodejs-npm_logos.png" height="250" alt="MarlinFirmware's logo" />
 ```
 <img src="https://raw.githubusercontent.com/carjavi/install-nodejs-ARM/master/img/nodejs-npm_logos.png" height="250" alt="MarlinFirmware's logo" />
+
+<br>
+
+
+
+# Code
+Fragmentos de código (snippets). basta con usar la tecla TABULACION
+
+`Esto es una línea de código`
+
+dentro de un parrafo <code>string</code> 
+
+la forma mas comun usando **\``` al inicio y al final \```**
+<br>
+
+\``` html
+```
+<html>
+    <head>
+        <title>Título del sitio Web</title>
+    </head>
+    <body>
+    </body>
+</html>
+```
+\```
+
+\```javascript
+```
+//javascript
+var conf = require('rc')(appname, {
+  port: 2468,
+  views: {
+    engine: 'jade'
+  }
+});
+```
+\```
+
+\```js
+```
+//javascript
+var server = require('http').createServer();
+var io = require('socket.io')(server);
+io.on('connection', function(client){
+  client.on('event', function(data){});
+  client.on('disconnect', function(){});
+});
+server.listen(3000);
+```
+\```
+
+\```bash
+```
+npm install socket.io --save
+```
+\```
+
+\```python
+```
+# python
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
+```
+\```
+
+\```sh
+```
+$ npm install --save strip-json-comments
+```
+\```
+
+\```cmd
+```
+set DEBUG=*,-not_this
+```
+\```
+
+
+\```
+```
+$ whoami
+```
+\```
+
+<br>
+
+# Horizontal lines
+___
+* * *
+- - - - - -
+
+<br>
+
+# Tables
+
+| Name      | Purpose                                         |
+|-----------|-------------------------------------------------|
+| `DEBUG`   | Enables/disables specific debugging namespaces. |
+| `DEBUG_HIDE_DATE` | Hide date from debug output (non-TTY).  |
+| `DEBUG_COLORS`| Whether or not to use colors in the debug output. |
+| `DEBUG_DEPTH` | Object inspection depth.                    |
+| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |
+
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| --------- | --------- | --------- |
+| renglón 1, columna 1 | renglón 1, columna 2 | renglón 1, columna 3|
+| renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
+| renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
+<br>
+
+# Lists
+Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de suma.
+
+- [x] Lorem ipsum dolor sit amet
+- [ ] Lorem consectetur adipisicing elit
+- [ ] Lorem ut labore et dfolore
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+<br>
+
+* Frutas
+  * Manzanas
+  * Naranjas
+  * Uvas
+* Lácteos
+  * Leche
+  * Queso
+
+<br>
+
+Lista de pendientes
+------------------
+1. Terminar el tutorial de Markdown
+2. Ir a la tienda de abarrotes
+3. Preparar el almuerzo
+
+
+<br>
+
+* [Ina219](#Ina219)
+  * [new Ina219()](#new_Ina219_new)
+  * [.init(address, device)](#Ina219+init)
+  * [.enableLogging(enable)](#Ina219+enableLogging)
+  * [.writeRegister(register, value, callback)](#Ina219+writeRegister)
+  * [.readRegister(register, callback)](#Ina219+readRegister)
+  * [.calibrate32V1A(callback)](#Ina219+calibrate32V1A)
+  * [.log(s)](#Ina219+log)
+
+<br>
+
+<details open> 
+    <summary> 
+      What is Lorem Ipsum?
+    </summary>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+</details>
+
+<details> 
+    <summary> 
+      Why do we use it?
+    </summary>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+</details>
+
+<br>
+
+# Caracteres Especiales
+
+símbolo de copyright: &copy;
+
+símbolo: AT&amp;T
+
+como se escribe: 4 &lt; 5   
+
+como se escribe: E=MC<sup>2</sup>
+
+como se escribe: CO<sub>2</sub>
+
+como se escribe: aaa &#124; bbb
+
+ como se escribe: &reg;
+
+como se escribe: &larr;
+
+como se escribe: &rarr;
+
+ como se escribe: &uarr;
+
+ como se escribe: &darr;
+
+ como se escribe: &#176;
+
+como se escribe: &#960;
+
+
+```
+\   backslash (barra invertida) para poder escriibir caracteres especiales
+
+`   backtick (acento grave)
+*   asterisk (asterisco)
+_   underscore (subrayado)
+{}  curly braces (llaves)
+[]  square brackets (corchetes)
+()  parentheses (paréntesis)
+#   hash mark (almohadilla)
+.   dot (punto)
+!   exclamation mark (exclamación)
+```
+sample: \* asteriscos, sin énfasis
+
+<br>
+
+# Videos
+
+    !video[text to display](url)
+
+[![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/)
+
+[![image alt text](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=fUatlXlAsuw&t=861s&ab_channel=RaulDiosdado)
+
+con imagen miniatura de foto
+
+### Youtube Video: Life as an Engineer - WFH
+
+[![][thumbnail]](https://youtu.be/Rgx8dpiPwpA "Life as an Engineer - WFH")
+
+[thumbnail]: https://raw.githubusercontent.com/6aravind/tidbits/main/assets/images/markdown_Life%20as%20Engineer.png
+
+
+<br>
+
+# Info
+Si usted desea realmente insertar una marca `<br/>` de salto de línea usando Markdown, sólo tiene que finalizar una línea con dos o más espacios, y a continuación pulsar la tecla de retorno, es decir, Para realizar un salto de línea y empezar una frase en una línea siguiente dentro del mismo párrafo, tendrás que pulsar dos veces la barra espaciadora antes de pulsar una vez intro.
+
+<br>
+
+# Samples
+
+    [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+
+## Authors
+```
+- [Daniel Muchiri](https://github.com/daydroidmuchiri)
+- [Kevin Wairi](https://github.com/kevinwairi)
+```
+  
+- [Daniel Muchiri](https://github.com/daydroidmuchiri)
+- [Kevin Wairi](https://github.com/kevinwairi)
+
+<br>
+
+```
+**Supported params:**
+
+- ```description``` - Text to display before the argument help.
+- ```epilog``` - Text to display after the argument help.
+
+
+Details in [original ArgumentParser guide](http://docs.python.org/dev/library/argparse.html#argumentparser-objects)
+```
+
+**Supported params:**
+
+- ```description``` - Text to display before the argument help.
+- ```epilog``` - Text to display after the argument help.
+
+
+Details in [original ArgumentParser guide](http://docs.python.org/dev/library/argparse.html#argumentparser-objects)
+
+<br>
+
+## Shield in HTML
+```
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">OS</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#C03027">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Raspbian GNU/Linux 11</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">node</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#53B21D">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">18.0.9</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">python</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#E89B33">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">arduino</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#27A4C0">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
+```
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">OS</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#C03027">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Raspbian GNU/Linux 11</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">node</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#53B21D">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">18.0.9</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">python</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#E89B33">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
+
+<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">arduino</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#27A4C0">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
+
+<br>
+
+License
+=======
+Copyright (c) 2012 [Vitaly Puzrin](https://github.com/puzrin).
+<br>
+MIT © [Sindre Sorhus](http://sindresorhus.com)
+
+<br>
+
+
 
 
 
