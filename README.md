@@ -650,9 +650,13 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 <h1 align="center">Markdown Guide</h1> 
 <h4 align="right">Aug 22</h4>
 ```
-## Footpage
+
+## Shields
+    https://shields.io/
+
+## Footer
 ```
-# Autor
+# Author
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
@@ -661,7 +665,7 @@ carjavi@hotmail.com <br>
 </p>
 ```
 
-# Autor
+# Author
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
