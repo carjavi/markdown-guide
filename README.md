@@ -311,7 +311,7 @@ https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 <br>
 
 ## Local image github
-route image:
+image route:
 
     https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/
     sample:
@@ -495,6 +495,35 @@ It is a long established fact that a reader will be distracted by the readable c
 
 # Caracteres Especiales
 
+```
+símbolo de copyright: &copy;
+símbolo: AT&amp;T
+como se escribe: 4 &lt; 5   
+como se escribe: E=MC<sup>2</sup>
+como se escribe: CO<sub>2</sub>
+como se escribe: aaa &#124; bbb
+como se escribe: &reg;
+como se escribe: &larr;
+como se escribe: &rarr;
+como se escribe: &uarr;
+como se escribe: &darr;
+como se escribe: &#176;
+como se escribe: &#960;
+
+\   backslash (barra invertida) para poder escriibir caracteres especiales
+
+`   backtick (acento grave)
+*   asterisk (asterisco)
+_   underscore (subrayado)
+{}  curly braces (llaves)
+[]  square brackets (corchetes)
+()  parentheses (paréntesis)
+#   hash mark (almohadilla)
+.   dot (punto)
+!   exclamation mark (exclamación)
+```
+    sample: \* asteriscos, sin énfasis
+
 símbolo de copyright: &copy;
 
 símbolo: AT&amp;T
@@ -521,31 +550,17 @@ como se escribe: &rarr;
 
 como se escribe: &#960;
 
-
-```
-\   backslash (barra invertida) para poder escriibir caracteres especiales
-
-`   backtick (acento grave)
-*   asterisk (asterisco)
-_   underscore (subrayado)
-{}  curly braces (llaves)
-[]  square brackets (corchetes)
-()  parentheses (paréntesis)
-#   hash mark (almohadilla)
-.   dot (punto)
-!   exclamation mark (exclamación)
-```
-sample: \* asteriscos, sin énfasis
-
 <br>
 
 # Videos
 
     !video[text to display](url)
-
+```
 [![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/)
+```
 
 [![image alt text](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=fUatlXlAsuw&t=861s&ab_channel=RaulDiosdado)
+
 
 con imagen miniatura de foto
 
@@ -628,6 +643,29 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 <br>
 
+# My style
+
+## Titule
+```
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/markdown_logo.png" height="100" alt=" " /></p>
+<br>
+<h1 align="center">Markdown Guide</h1> 
+<h4 align="right">Aug 22</h4>
+```
+## Footpage
+```
+# Autor
+Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
+```www.instintodigital.net``` <br>
+carjavi@hotmail.com <br>
+<a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/carjavi.png"></a>
+```
+
+# Autor
+Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
+```www.instintodigital.net``` <br>
+carjavi@hotmail.com <br>
+<a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/carjavi.png"></a>
 
 
 
