@@ -103,6 +103,17 @@ This is how you add additional line spacing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br>
 
+## Admonitions
+```
+> :warning: **Warning:** Do not push the big red button.
+> :memo: **Note:** Sunrises are beautiful.
+> :bulb: **Tip:** Remember to appreciate the little things in life.
+```
+> :warning: **Warning:** Do not push the big red button.<br>
+> :memo: **Note:** Sunrises are beautiful.<br>
+> :bulb: **Tip:** Remember to appreciate the little things in life.<br>
+<br>
+
 # Table of contents
 
 link to headers
@@ -704,7 +715,7 @@ carjavi@hotmail.com <br>
     <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
 
-> :warning: **Warning:** Do not push the big red button.
+
 
 
 
