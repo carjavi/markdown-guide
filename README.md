@@ -652,7 +652,26 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 ```
 
 ## Shields
-    https://shields.io/
+```
+https://shields.io/
+
+OS-Linux
+<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
+OS-Windows
+<img src="https://img.shields.io/badge/OS-Windows%2011-blue">
+
+Hardware-Raspberry
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+Hardware-Arduino
+<img src="https://img.shields.io/badge/Hardware-Arduino__nano-red">
+Hardware-ESP32
+<img src="https://img.shields.io/badge/Hardware-ESP32-red">
+
+Node
+<img src="https://img.shields.io/badge/Node%20-V18.7.0-green">
+Python
+<img src="https://img.shields.io/badge/Python%20-V3.9.2-orange">
+```
 
 ## Footer
 ```
