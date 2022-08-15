@@ -663,7 +663,9 @@ carjavi@hotmail.com <br>
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
-<a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/carjavi.png" height="100" alt="www.instintodigital.net"></a>
+<p align="center">
+    <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/carjavi.png" height="100" alt="www.instintodigital.net"></a>
+</p>
 
 
 
