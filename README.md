@@ -656,7 +656,7 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 ## Footer
 ```
-# Author
+---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
@@ -665,7 +665,7 @@ carjavi@hotmail.com <br>
 </p>
 ```
 
-# Author
+---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
