@@ -496,6 +496,7 @@ Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de 
 
 <br>
 ```
+
 * Frutas
   * Manzanas
   * Naranjas
@@ -503,7 +504,9 @@ Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de 
 * Lácteos
   * Leche
   * Queso
+
 ```
+
 * Frutas
   * Manzanas
   * Naranjas
