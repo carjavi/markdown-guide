@@ -600,9 +600,16 @@ Si usted desea realmente insertar una marca `<br/>` de salto de línea usando Ma
 <br>
 
 # Samples
-
-    [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+```
+<summary>Emeriti</summary>
+```
+<summary>Emeriti</summary>
+
 
 
 ## Authors
@@ -613,7 +620,40 @@ Si usted desea realmente insertar una marca `<br/>` de salto de línea usando Ma
   
 - [Daniel Muchiri](https://github.com/daydroidmuchiri)
 - [Kevin Wairi](https://github.com/kevinwairi)
+  
+```
+<details>
+* [addaleax](https://github.com/addaleax) -
+  **Anna Henningsen** <<anna@addaleax.net>> (she/her)
+* [bnoordhuis](https://github.com/bnoordhuis) -
+  **Ben Noordhuis** <<info@bnoordhuis.nl>>
+* [chrisdickinson](https://github.com/chrisdickinson) -
+  **Chris Dickinson** <<christopher.s.dickinson@gmail.com>>
+* [codebytere](https://github.com/codebytere) -
+  **Shelley Vohr** <<shelley.vohr@gmail.com>> (she/her)
+</details>
+  ```
+<details>
+  * [addaleax](https://github.com/addaleax) -
+  **Anna Henningsen** <<anna@addaleax.net>> (she/her)
+* [bnoordhuis](https://github.com/bnoordhuis) -
+  **Ben Noordhuis** <<info@bnoordhuis.nl>>
+* [chrisdickinson](https://github.com/chrisdickinson) -
+  **Chris Dickinson** <<christopher.s.dickinson@gmail.com>>
+* [codebytere](https://github.com/codebytere) -
+  **Shelley Vohr** <<shelley.vohr@gmail.com>> (she/her)
+</details>
 
+ ```
+<!-- node-core-utils and find-inactive-collaborators.mjs depend on the format
+     of the collaborator list. If the format changes, those utilities need to be
+     tested and updated. -->
+ ```
+ <!-- node-core-utils and find-inactive-collaborators.mjs depend on the format
+     of the collaborator list. If the format changes, those utilities need to be
+     tested and updated. -->
+
+     
 <br>
 
 ```
