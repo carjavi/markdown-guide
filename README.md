@@ -440,6 +440,15 @@ ___
 
 # Tables
 
+```
+| Name      | Purpose                                         |
+|-----------|-------------------------------------------------|
+| `DEBUG`   | Enables/disables specific debugging namespaces. |
+| `DEBUG_HIDE_DATE` | Hide date from debug output (non-TTY).  |
+| `DEBUG_COLORS`| Whether or not to use colors in the debug output. |
+| `DEBUG_DEPTH` | Object inspection depth.                    |
+| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |
+```
 | Name      | Purpose                                         |
 |-----------|-------------------------------------------------|
 | `DEBUG`   | Enables/disables specific debugging namespaces. |
@@ -448,7 +457,13 @@ ___
 | `DEBUG_DEPTH` | Object inspection depth.                    |
 | `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |
 
-
+```
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| --------- | --------- | --------- |
+| renglón 1, columna 1 | renglón 1, columna 2 | renglón 1, columna 3|
+| renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
+| renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
+```
 | Encabezado 1 | Encabezado 2 | Encabezado 3 |
 | --------- | --------- | --------- |
 | renglón 1, columna 1 | renglón 1, columna 2 | renglón 1, columna 3|
@@ -458,18 +473,37 @@ ___
 
 # Lists
 Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de suma.
-
+```
+- [x] Lorem ipsum dolor sit amet
+- [ ] Lorem consectetur adipisicing elit
+- [ ] Lorem ut labore et dfolore
+```
 - [x] Lorem ipsum dolor sit amet
 - [ ] Lorem consectetur adipisicing elit
 - [ ] Lorem ut labore et dfolore
 
+
+```
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+```
 1. First item
 2. Second item
 3. Third item
 4. Fourth item
 
 <br>
-
+```
+* Frutas
+  * Manzanas
+  * Naranjas
+  * Uvas
+* Lácteos
+  * Leche
+  * Queso
+```
 * Frutas
   * Manzanas
   * Naranjas
@@ -480,6 +514,13 @@ Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de 
 
 <br>
 
+```
+Lista de pendientes
+------------------
+1. Terminar el tutorial de Markdown
+2. Ir a la tienda de abarrotes
+3. Preparar el almuerzo
+```
 Lista de pendientes
 ------------------
 1. Terminar el tutorial de Markdown
@@ -488,7 +529,16 @@ Lista de pendientes
 
 
 <br>
-
+```
+* [Ina219](#Ina219)
+  * [new Ina219()](#new_Ina219_new)
+  * [.init(address, device)](#Ina219+init)
+  * [.enableLogging(enable)](#Ina219+enableLogging)
+  * [.writeRegister(register, value, callback)](#Ina219+writeRegister)
+  * [.readRegister(register, callback)](#Ina219+readRegister)
+  * [.calibrate32V1A(callback)](#Ina219+calibrate32V1A)
+  * [.log(s)](#Ina219+log)
+```
 * [Ina219](#Ina219)
   * [new Ina219()](#new_Ina219_new)
   * [.init(address, device)](#Ina219+init)
@@ -500,6 +550,21 @@ Lista de pendientes
 
 <br>
 
+```
+<details open> 
+    <summary> 
+      What is Lorem Ipsum?
+    </summary>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+</details>
+
+<details> 
+    <summary> 
+      Why do we use it?
+    </summary>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+</details>
+```
 <details open> 
     <summary> 
       What is Lorem Ipsum?
