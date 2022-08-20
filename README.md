@@ -495,17 +495,6 @@ Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de 
 4. Fourth item
 
 <br>
-```
-
-* Frutas
-  * Manzanas
-  * Naranjas
-  * Uvas
-* Lácteos
-  * Leche
-  * Queso
-
-```
 
 * Frutas
   * Manzanas
@@ -516,6 +505,18 @@ Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de 
   * Queso
 
 <br>
+
+```
+* Frutas
+  * Manzanas
+  * Naranjas
+  * Uvas
+* Lácteos
+  * Leche
+  * Queso
+```
+
+listado con titulo:
 
 ```
 Lista de pendientes
@@ -530,8 +531,8 @@ Lista de pendientes
 2. Ir a la tienda de abarrotes
 3. Preparar el almuerzo
 
-
 <br>
+
 ```
 * [Ina219](#Ina219)
   * [new Ina219()](#new_Ina219_new)
@@ -542,6 +543,7 @@ Lista de pendientes
   * [.calibrate32V1A(callback)](#Ina219+calibrate32V1A)
   * [.log(s)](#Ina219+log)
 ```
+
 * [Ina219](#Ina219)
   * [new Ina219()](#new_Ina219_new)
   * [.init(address, device)](#Ina219+init)
@@ -550,8 +552,6 @@ Lista de pendientes
   * [.readRegister(register, callback)](#Ina219+readRegister)
   * [.calibrate32V1A(callback)](#Ina219+calibrate32V1A)
   * [.log(s)](#Ina219+log)
-
-<br>
 
 ```
 <details open> 
@@ -568,6 +568,7 @@ Lista de pendientes
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
 </details>
 ```
+
 <details open> 
     <summary> 
       What is Lorem Ipsum?
@@ -581,6 +582,7 @@ It is a long established fact that a reader will be distracted by the readable c
     </summary>
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
 </details>
+
 
 <br>
 
