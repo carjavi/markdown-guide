@@ -720,6 +720,8 @@ https://shields.io/
 
 OS-Linux
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
+Linux
+<img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
 OS-Windows
 <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
 
