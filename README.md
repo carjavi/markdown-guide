@@ -800,23 +800,43 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 ```
 https://shields.io/
 
-OS-Linux
+1. OS-Raspberry --------------
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
+
+<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2010%20(buster)-yellowgreen">
+
+
+2. OS ------------------------
 Linux
 <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
+
 OS-Windows
 <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
 
-Hardware-Raspberry
+
+3. Hardware------------------
+Raspberry 4
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+
+Raspberry 3B+
+<img src="https://img.shields.io/badge/Hardware-Raspberry%203B%2B-red">
+
+Raspberry Zero
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20Zero-red">
+
 Hardware-Arduino
 <img src="https://img.shields.io/badge/Hardware-Arduino__nano-red">
+
 Hardware-ESP32
 <img src="https://img.shields.io/badge/Hardware-ESP32-red">
 
-Node
+
+
+4. Node ver ----------------------------------------
 <img src="https://img.shields.io/badge/Node%20-V18.7.0-green">
-Python
+
+
+5. Python ----------------------------------------
 <img src="https://img.shields.io/badge/Python%20-V3.9.2-orange">
 ```
 
