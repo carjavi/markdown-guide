@@ -660,6 +660,8 @@ https://img.shields.io/badge/<your label>-<value>-<background color>.svg?&style=
 ![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=Freelancer&logoColor=white)
 
 
+LINK: https://ileriayo.github.io/markdown-badges/
+
 <br>
 
 ## SVG
