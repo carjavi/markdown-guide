@@ -1211,13 +1211,7 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 # My style
 
-## Titule
-```
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/markdown_logo.png" height="100" alt=" " /></p>
-<br>
-<h1 align="center">Markdown Guide</h1> 
-<h4 align="right">Aug 22</h4>
-```
+
 
 ##  Shields
 ```
@@ -1263,14 +1257,24 @@ Hardware-ESP32
 <img src="https://img.shields.io/badge/Python%20-V3.9.2-orange">
 ```
 
-## Footer
+
+## Titule & Footer
 ```
+<p align="center"><img src="./img/markdown_logo.png" height="100" alt=" " /></p>
+<br>
+<h1 align="center"> Titule </h1> 
+<h4 align="right">Aug 23</h4>
+
+<br>
+
+<br>
+
 ---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
 <p align="center">
-    <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/developer.png" height="100" alt="www.instintodigital.net"></a>
+    <a href="https://instintodigital.net/" target="_blank"><img src="./img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
 ```
 
