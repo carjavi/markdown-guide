@@ -1,5 +1,4 @@
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="300" alt=" " /></p>
-<br>
 <h1 align="center">Markdown Guide</h1> 
 <h4 align="right">Aug 22</h4>
 
@@ -1261,9 +1260,8 @@ Hardware-ESP32
 ## Titule & Footer
 ```
 <p align="center"><img src="./img/logo.png" height="100" alt=" " /></p>
-<br>
 <h1 align="center"> Titule </h1> 
-<h4 align="right">Aug 23</h4>
+<h4 align="right">Month 23</h4>
 
 <br>
 
