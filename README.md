@@ -115,6 +115,13 @@ This is how you add additional line spacing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Table of contents
 
+De forma automatica:
+```
+# Titulo
+- [titulo](#titulo)
+al darle enter crea automaticamente toda la tabla de todo el contenido del archivo Markdown
+```
+
 link to headers
 ```
 * [General info](#general-info)
