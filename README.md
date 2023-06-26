@@ -31,29 +31,6 @@ Encabezado nivel 2
 --------------------------
 ```
 #  Text Format
-## html:
-
-```
-<span style="color:red">cardenales</span>
-<p style="color:blue">Make this text blue.</p>
-<font color="red">This text is red!</font>
-<font size="5"> Markdown text content</font>
-<h1 align="center">Marlin 3D Printer Firmware</h1>
-<div style="background-color: #FFFF00">Highlighted text</div>
-<mark >Highlighted text</mark>  
-<span style="background-color:green">Mrs. Robinson</span>
-```
-<span style="color:red">cardenales</span>
-<p style="color:blue">Make this text blue.</p>
-<font color="red">This text is red!</font><br>
-<font size="5"> Markdown text content</font>
-<h1 align="center">Marlin 3D Printer Firmware</h1>
-<div style="background-color: #FFFF00">Highlighted text</div>
-<mark >Highlighted text</mark> <br> 
-<span style="background-color:green">Mrs. Robinson</span>
-<br>
-
-## markdown text :
 ```
 **Esto es una negrita**
 *Esto es una itálica*
@@ -670,91 +647,6 @@ LINK: https://ileriayo.github.io/markdown-badges/
 
 <br>
 
-## SVG
-```
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg>
-```
---><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-zip color-fg-muted">
-    <path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path>
-</svg> <--icono zip
-
-
-```
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-2">
-    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
-</svg>
-```
--->
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-2">
-    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
-</svg> <-- Star
-
-
-```
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-eye mr-2">
-    <path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
-</svg>
-```
--->
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-eye mr-2">
-    <path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path>
-</svg> <-- eye
-
-
-```
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book mr-2">
-    <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path>
-</svg> 
-```
--->
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book mr-2">
-    <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path>
-</svg> <-- book
-
-// rocket
-```
-<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rocket">
-    <path fill-rule="evenodd" d="M14.064 0a8.75 8.75 0 00-6.187 2.563l-.459.458c-.314.314-.616.641-.904.979H3.31a1.75 1.75 0 00-1.49.833L.11 7.607a.75.75 0 00.418 1.11l3.102.954c.037.051.079.1.124.145l2.429 2.428c.046.046.094.088.145.125l.954 3.102a.75.75 0 001.11.418l2.774-1.707a1.75 1.75 0 00.833-1.49V9.485c.338-.288.665-.59.979-.904l.458-.459A8.75 8.75 0 0016 1.936V1.75A1.75 1.75 0 0014.25 0h-.186zM10.5 10.625c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 00.119-.213v-2.066zM3.678 8.116L5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 00-.213.119l-1.2 1.95 1.782.547zm5.26-4.493A7.25 7.25 0 0114.063 1.5h.186a.25.25 0 01.25.25v.186a7.25 7.25 0 01-2.123 5.127l-.459.458a15.21 15.21 0 01-2.499 2.02l-2.317 1.5-2.143-2.143 1.5-2.317a15.25 15.25 0 012.02-2.5l.458-.458h.002zM12 5a1 1 0 11-2 0 1 1 0 012 0zm-8.44 9.56a1.5 1.5 0 10-2.12-2.12c-.734.73-1.047 2.332-1.15 3.003a.23.23 0 00.265.265c.671-.103 2.273-.416 3.005-1.148z"></path>
-</svg>
-```
--->
-<svg height="16" viewBox="0 0 16 16" width="16" class="svg-icon">
-    <path fill-rule="none" d="M14.064 0a8.75 8.75 0 00-6.187 2.563l-.459.458c-.314.314-.616.641-.904.979H3.31a1.75 1.75 0 00-1.49.833L.11 7.607a.75.75 0 00.418 1.11l3.102.954c.037.051.079.1.124.145l2.429 2.428c.046.046.094.088.145.125l.954 3.102a.75.75 0 001.11.418l2.774-1.707a1.75 1.75 0 00.833-1.49V9.485c.338-.288.665-.59.979-.904l.458-.459A8.75 8.75 0 0016 1.936V1.75A1.75 1.75 0 0014.25 0h-.186zM10.5 10.625c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 00.119-.213v-2.066zM3.678 8.116L5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 00-.213.119l-1.2 1.95 1.782.547zm5.26-4.493A7.25 7.25 0 0114.063 1.5h.186a.25.25 0 01.25.25v.186a7.25 7.25 0 01-2.123 5.127l-.459.458a15.21 15.21 0 01-2.499 2.02l-2.317 1.5-2.143-2.143 1.5-2.317a15.25 15.25 0 012.02-2.5l.458-.458h.002zM12 5a1 1 0 11-2 0 1 1 0 012 0zm-8.44 9.56a1.5 1.5 0 10-2.12-2.12c-.734.73-1.047 2.332-1.15 3.003a.23.23 0 00.265.265c.671-.103 2.273-.416 3.005-1.148z"></path>
-</svg> <-- rocker
-
-```
-// C3PO star war
-<svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M5.177,17.658c0,0,3.445,1.987,4.823,1.987c2.067,0,4.823-1.987,4.823-1.987c0.024-0.025,0.044-0.054,0.068-0.08H5.109C5.133,17.604,5.153,17.633,5.177,17.658z M8.622,1.583V0.531C6.496,0.973,2.539,2.521,1.376,7.933H0.699c-0.189,0-0.344,0.155-0.344,0.344v1.378C0.354,9.845,0.509,10,0.699,10h0.392c-0.016,0.224-0.026,0.454-0.033,0.689H0.699c-0.189,0-0.344,0.155-0.344,0.344v1.378c0,0.189,0.155,0.344,0.344,0.344h0.439c0.089,0.79,0.262,1.804,0.594,2.849v2.663H4.34c-2.233-2.449-2.264-6.822-2.264-7.01C2.077,4.052,6.353,2.108,8.622,1.583zM10.689,0.354H9.311v2.059h1.378V0.354z M11.378,2.63v0.472H8.622V2.63C6.612,3.147,3.11,4.951,3.11,11.258c0,0,0.004,3.373,1.47,5.632h4.042v-0.689h2.756v0.689h4.042c1.466-2.259,1.47-5.632,1.47-5.632C16.89,4.951,13.388,3.147,11.378,2.63z M5.005,12.035c-0.318-0.364-0.517-0.833-0.517-1.354S4.687,9.69,5.005,9.327V12.035zM6.383,10.026c-0.295,0.078-0.517,0.335-0.517,0.654c0,0.319,0.222,0.576,0.517,0.654v1.395c-0.384-0.032-0.738-0.163-1.033-0.377V9.008c0.296-0.214,0.649-0.345,1.033-0.377V10.026z M7.761,12.353c-0.296,0.214-0.649,0.345-1.033,0.377v-1.395C7.022,11.257,7.244,11,7.244,10.681c0-0.319-0.222-0.576-0.517-0.654V8.631c0.384,0.032,0.738,0.163,1.033,0.377V12.353zM8.105,12.035V9.327c0.318,0.363,0.517,0.833,0.517,1.354S8.423,11.671,8.105,12.035z M10,13.445l-1.378,0.689L10,12.756l1.378,1.378L10,13.445z M11.895,12.035c-0.318-0.364-0.517-0.833-0.517-1.354s0.199-0.991,0.517-1.354V12.035z M13.273,10.026c-0.295,0.078-0.517,0.335-0.517,0.654c0,0.319,0.222,0.576,0.517,0.654v1.395c-0.384-0.032-0.738-0.163-1.033-0.377V9.008c0.296-0.214,0.649-0.345,1.033-0.377V10.026z M14.651,12.353c-0.296,0.214-0.649,0.345-1.033,0.377v-1.395c0.295-0.078,0.517-0.335,0.517-0.654c0-0.319-0.222-0.576-0.517-0.654V8.631c0.384,0.032,0.738,0.163,1.033,0.377V12.353zM14.995,12.035V9.327c0.318,0.363,0.517,0.833,0.517,1.354S15.313,11.671,14.995,12.035z M19.646,9.656V8.278c0-0.189-0.155-0.344-0.344-0.344h-0.678c-1.163-5.413-5.12-6.96-7.246-7.402v1.052c2.269,0.525,6.545,2.469,6.545,9.675c0,0.188-0.031,4.561-2.264,7.01h2.608v-2.663c0.333-1.044,0.505-2.058,0.594-2.849h0.439c0.189,0,0.344-0.155,0.344-0.344v-1.378c0-0.189-0.155-0.344-0.344-0.344h-0.359c-0.007-0.235-0.017-0.465-0.033-0.689h0.392C19.491,10,19.646,9.845,19.646,9.656z"></path>
-</svg>
-
-<<<<< svgicons.ccs >>>>
-
-/* -----
-SVG Icons - svgicons.sparkk.fr
------ */
-
-.svg-icon {
-  width: 1em;
-  height: 1em;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #4691f6;
-}
-
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
-}
-
-```
-<br>
-
 ## Custotm Shieds Static
 go to:
 ```
@@ -910,6 +802,152 @@ ___
 | renglón 1, columna 1 | renglón 1, columna 2 | renglón 1, columna 3|
 | renglón 2, columna 1 | renglón 2, columna 2 | renglón 2, columna 3|
 | renglón 3, columna 1 | renglón 3, columna 2 | renglón 3, columna 3|
+
+<br>
+
+# Tables HTML
+Tabla sin filas:
+```
+<!-- Nueva tabla -->
+<table style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+    <colgroup><col align="left"><col align="left"><col align="left"></colgroup>
+    <thead>
+	<!-- Encabezado de la tabla -->
+	<tr>
+	   <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Command</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Action</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Example usage and subcommand examples</p></th>
+	</tr>
+    </thead>
+    <tbody>
+    <!-- aqui van las filas-->
+    </tbody>
+</table>
+```
+Output:
+<!-- Nueva tabla -->
+<table style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+    <colgroup><col align="left"><col align="left"><col align="left"></colgroup>
+    <thead>
+	<!-- Encabezado de la tabla -->
+	<tr>
+	   <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Command</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Action</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Example usage and subcommand examples</p></th>
+	</tr>
+    </thead>
+    <tbody>
+    <!-- aqui van las filas-->
+    </tbody>
+</table>
+
+<br>
+
+Tabla con filas:
+
+```
+<!-- Nueva tabla -->
+<table style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+    <colgroup><col align="left"><col align="left"><col align="left"></colgroup>
+    <thead>
+	<!-- Encabezado de la tabla -->
+	<tr>
+	   <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Command</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Action</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Example usage and subcommand examples</p></th>
+	</tr>
+    </thead>
+    <tbody>
+	<!-- Example fila comandos 1 -->
+	<tr>
+	   <td style="" align="left" valign="top"><p><code class="literal">COMMANDS</code></p></td>
+	   <td style="" align="left" valign="top"><p>DESCRIPCION</p></td>
+	   <td style="" align="left" valign="top"><p><code class="literal">$ ros command [parameter]</code></p></td>
+	</tr>
+	<!-- Example fila comandos 1 end -->
+	<!-- Example fila comandos 2 -->
+	 <tr>
+	    <td style="" align="left" valign="top"><p><code class="literal">COMANDO-ROS</code></p></td>
+	    <td style="" align="left" valign="top"><p>DESCRIPCION</p></td>
+	    <td style="" align="left" valign="top"><p><code class="literal">$ rosxxx &lt;subcommand&gt; [parameter]</code></p>
+            <p>Subcommands: <code class="literal">get</code>, <code class="literal">set</code>, <code class="literal">list</code>, and <code class="literal">delete</code></p></td>
+     </tr>
+	<!-- Example fila comandos 2 end -->
+    <tr>
+	   <td style="" align="left" valign="top"><p><code class="literal">rosservice</code></p></td>
+	   <td style="" align="left" valign="top"><p>A tool for listing and querying ROS services.</p></td>
+	   <td style="" align="left" valign="top">
+            <p><code class="literal">$ rosservice list</code> Print information about active services.</p>
+            <p>Launch a file in a package: <code class="literal">$ roslaunch package filename.launch</code></p>
+            <p><code class="literal">$ rosservice list</code> Print information about active services.</p>
+       </td>
+	</tr>
+    <tr>
+	    <td style="" align="left" valign="top"><p><code class="literal">rosed</code></p></td>
+	    <td style="" align="left" valign="top"><p>It allows you to directly edit a file within a package by package name rather than having to know the package path.</p></td>
+	    <td style="" align="left" valign="top">
+                <p>Usage:</p>
+                <p><code class="literal">$ rosed packagename filename</code></p>
+                <p>Example:</p>
+                <p><code class="literal">$ rosed roscpp ros.h</code></p>
+        </td>
+	</tr>
+    </tbody>
+</table>
+<!-- Nueva tabla end -->
+```
+Output:
+
+<!-- Nueva tabla -->
+<table style="border-collapse: collapse;border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+    <colgroup><col align="left"><col align="left"><col align="left"></colgroup>
+    <thead>
+	<!-- Encabezado de la tabla -->
+	<tr>
+	   <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Command</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Action</p></th>
+           <th style="border-bottom: 0.5pt solid ; " align="left" valign="bottom"><p>Example usage and subcommand examples</p></th>
+	</tr>
+    </thead>
+    <tbody>
+	<!-- Example fila comandos 1 -->
+	<tr>
+	   <td style="" align="left" valign="top"><p><code class="literal">COMMANDS</code></p></td>
+	   <td style="" align="left" valign="top"><p>DESCRIPCION</p></td>
+	   <td style="" align="left" valign="top"><p><code class="literal">$ ros command [parameter]</code></p></td>
+	</tr>
+	<!-- Example fila comandos 1 end -->
+	<!-- Example fila comandos 2 -->
+	 <tr>
+	    <td style="" align="left" valign="top"><p><code class="literal">COMANDO-ROS</code></p></td>
+	    <td style="" align="left" valign="top"><p>DESCRIPCION</p></td>
+	    <td style="" align="left" valign="top"><p><code class="literal">$ rosxxx &lt;subcommand&gt; [parameter]</code></p>
+            <p>Subcommands: <code class="literal">get</code>, <code class="literal">set</code>, <code class="literal">list</code>, and <code class="literal">delete</code></p></td>
+     </tr>
+	<!-- Example fila comandos 2 end -->
+    <tr>
+	   <td style="" align="left" valign="top"><p><code class="literal">rosservice</code></p></td>
+	   <td style="" align="left" valign="top"><p>A tool for listing and querying ROS services.</p></td>
+	   <td style="" align="left" valign="top">
+            <p><code class="literal">$ rosservice list</code> Print information about active services.</p>
+            <p>Launch a file in a package: <code class="literal">$ roslaunch package filename.launch</code></p>
+            <p><code class="literal">$ rosservice list</code> Print information about active services.</p>
+       </td>
+	</tr>
+    <tr>
+	    <td style="" align="left" valign="top"><p><code class="literal">rosed</code></p></td>
+	    <td style="" align="left" valign="top"><p>It allows you to directly edit a file within a package by package name rather than having to know the package path.</p></td>
+	    <td style="" align="left" valign="top">
+                <p>Usage:</p>
+                <p><code class="literal">$ rosed packagename filename</code></p>
+                <p>Example:</p>
+                <p><code class="literal">$ rosed roscpp ros.h</code></p>
+        </td>
+	</tr>
+    </tbody>
+</table>
+<!-- Nueva tabla end -->
+
 <br>
 
 # Lists
@@ -1187,26 +1225,6 @@ Details in [original ArgumentParser guide](http://docs.python.org/dev/library/ar
 
 <br>
 
-## Shield in HTML
-```
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">OS</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#C03027">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Raspbian GNU/Linux 11</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">node</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#53B21D">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">18.0.9</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">python</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#E89B33">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">arduino</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#27A4C0">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
-```
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">OS</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#C03027">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Raspbian GNU/Linux 11</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">node</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#53B21D">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">18.0.9</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">python</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#E89B33">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">arduino</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#27A4C0">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">3.7.0</font>&nbsp;&nbsp;&nbsp;</span>
-
-<br>
-
 License
 =======
 Copyright (c) 2012 [Vitaly Puzrin](https://github.com/puzrin).
@@ -1215,9 +1233,25 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 <br>
 
+# Insert Animation AR into HTML (no Markdown)
+<p align="center"><img src="./img/AR-robot.png" height="200" alt=" " /></p>
+
+```
+<html>
+	<head>
+		<title>Mi página de ejemplo</title>
+	</head>
+	<body>
+        <div class="hero__model">                     
+            <iframe id="landing-model" title="A 3D model of a shoe" class="hero__iframe" width="auto" height="auto" src="https://sketchfab.com/models/99bfe75ebd734fa3832a63e02e2cacf7/embed?annotations_visible=0&amp;autospin=-0.1&amp;autostart=1&amp;camera=0&amp;double_click=0&amp;internal=1&amp;max_texture_size=1024&amp;orbit_constraint_pan=1&amp;orbit_constraint_zoom_in=40&amp;orbit_constraint_zoom_out=60&amp;preload=1&amp;scrollwheel=0&amp;sound_enable=0&amp;transparent=1&amp;ui_animations=0&amp;ui_annotations=0&amp;ui_ar=1&amp;ui_ar_help=0&amp;ui_color=white&amp;ui_fadeout=0&amp;ui_fullscreen=1&amp;ui_help=0&amp;ui_infos=0&amp;ui_inspector=0&amp;ui_settings=0&amp;ui_stop=0&amp;ui_theatre=0&amp;ui_theme=dark&amp;ui_vr=0&amp;ui_watermark=0" frameborder="0" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true"></iframe>                  
+        </div>
+	</body>
+</html>
+```
+
+<br>
+
 # My style
-
-
 
 ##  Shields
 ```
@@ -1282,6 +1316,18 @@ carjavi@hotmail.com <br>
     <a href="https://instintodigital.net/" target="_blank"><img src="./img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
 ```
+
+
+
+
+
+
+
+
+
+<br>
+
+<br>
 
 ---
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
