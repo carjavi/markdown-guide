@@ -1253,6 +1253,64 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 # My style
 
+## listening on Spotify now!
+```
+### 🎵 listening on Spotify now!
+ spotify github profile 
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=22jsdvk3ryfqzw7bljmxox54a&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
+```
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=22jsdvk3ryfqzw7bljmxox54a&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
+
+source: https://spotify-github-profile.vercel.app/api/login
+
+<br>
+
+## Contador de visitas
+```
+<!-- Counter Visits:START -->
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcarjavi%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors%3A+Today%2FTotal&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- Counter Visits:END -->
+```
+
+<!-- Counter Visits:START -->
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcarjavi%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors%3A+Today%2FTotal&edge_flat=false)](https://hits.seeyoufarm.com)
+<!-- Counter Visits:END -->
+
+<br>
+
+## Mi marca
+```
+<div>
+  <p>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/>&nbsp;&copy; 2023 Instinto Digital
+  </p>
+</div>
+```
+
+<div>
+  <p>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/>&nbsp;&copy; 2023 Instinto Digital
+  </p>
+</div>
+
+<br>
+
+## Start & Sponsors
+
+```
+
+[![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
+
+```
+
+[![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
+
+<br>
+
 ##  Shields
 ```
 https://shields.io/
