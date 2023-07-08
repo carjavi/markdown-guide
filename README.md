@@ -3,6 +3,57 @@
 <h4 align="right">Aug 22</h4>
 
 
+- [Header](#header)
+- [Encabezado nivel 1](#encabezado-nivel-1)
+  - [Encabezado nivel 2](#encabezado-nivel-2)
+    - [Encabezado nivel 3](#encabezado-nivel-3)
+      - [Encabezado nivel 4](#encabezado-nivel-4)
+        - [Encabezado nivel 5](#encabezado-nivel-5)
+          - [Encabezado nivel 6](#encabezado-nivel-6)
+- [Text Format](#text-format)
+    - [comment not visible in markdown](#comment-not-visible-in-markdown)
+  - [Additional Line Spacing](#additional-line-spacing)
+  - [Blockquotes](#blockquotes)
+  - [Admonitions](#admonitions)
+- [Table of contents](#table-of-contents)
+- [Links](#links)
+  - [Linking to Heading](#linking-to-heading)
+- [Images](#images)
+  - [Image Size](#image-size)
+  - [Align Text \& images](#align-text--images)
+  - [Justificar Texto](#justificar-texto)
+  - [Alinear Verticalmente Imagen y Texto (align="middle")](#alinear-verticalmente-imagen-y-texto-alignmiddle)
+  - [Image in paragraphs:](#image-in-paragraphs)
+  - [Linking Images](#linking-images)
+- [Markdown-badges Shieds](#markdown-badges-shieds)
+  - [Custotm Shieds Static](#custotm-shieds-static)
+  - [Local image github](#local-image-github)
+- [Code](#code)
+- [Horizontal lines](#horizontal-lines)
+- [Tables](#tables)
+- [Tables HTML](#tables-html)
+- [Lists](#lists)
+  - [Lista de pendientes](#lista-de-pendientes)
+- [Caracteres Especiales](#caracteres-especiales)
+- [Videos](#videos)
+    - [Youtube Video: Life as an Engineer - WFH](#youtube-video-life-as-an-engineer---wfh)
+- [Info](#info)
+- [Samples](#samples)
+  - [Authors](#authors)
+- [License](#license)
+- [Insert Animation AR into HTML (no Markdown)](#insert-animation-ar-into-html-no-markdown)
+- [My style](#my-style)
+  - [listening on Spotify now!](#listening-on-spotify-now)
+  - [Contador de visitas](#contador-de-visitas)
+- [HTML  Tag](#html--tag)
+- [With custom styles](#with-custom-styles)
+- [Mi marca](#mi-marca)
+  - [Start \& Sponsors](#start--sponsors)
+  - [Shields](#shields)
+  - [Titule \& Footer](#titule--footer)
+
+
+
 # Header
 
 ```
@@ -1278,7 +1329,190 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 <br>
 
-## Mi marca
+# HTML <kbd> Tag
+```
+<p>presione <kbd>Ctrl</kbd> + <kbd>↑</kbd>, y para desplazarse hacia abajo, presione <kbd>Ctrl</kbd> + <kbd>↓</kbd>.</p>
+
+<p>Para acceder a la sección de ayuda, presione <a href="https://www.ejemplo.com/ayuda"><kbd>F1</kbd></a>.</p>
+<p>Para iniciar el programa, presione <kbd class="teclas">F12</kbd>.</p>
+
+<p>Press <kbd>esc</kbd></p>
+<p>Press <kbd>→</kbd></p>
+<p><kbd>Ctrl+V</kbd> o <kbd>Shift+Ins</kbd></p>
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd></p>
+
+<kbd><samp>Ok</samp></kbd>
+<kbd><samp>Archivo</samp> → <samp>Imprimir...</samp></kbd>
+
+```
+<p>presione <kbd>Ctrl</kbd> + <kbd>↑</kbd>, y para desplazarse hacia abajo, presione <kbd>Ctrl</kbd> + <kbd>↓</kbd>.</p>
+
+<p>Para acceder a la sección de ayuda, presione <a href="https://www.ejemplo.com/ayuda"><kbd>F1</kbd></a>.</p>
+<p>Para iniciar el programa, presione <kbd class="teclas">F12</kbd>.</p>
+
+<p>Press <kbd>esc</kbd></p>
+<p>Press <kbd>→</kbd></p>
+<p><kbd>Ctrl+V</kbd> o <kbd>Shift+Ins</kbd></p>
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd></p>
+
+<kbd><samp>Ok</samp></kbd>
+<kbd><samp>Archivo</samp> → <samp>Imprimir...</samp></kbd>
+
+<br>
+
+# With custom styles
+```
+<style>
+		.teclas {
+			background-color: #333;
+			color: #fff;
+			padding: 5px;
+			border-radius: 5px;
+		}
+        .teclas2 {
+			background-color: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+            color: #333;
+            display: inline-block;
+            font-size: 0.85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
+		}
+        .teclas3 {
+			-moz-border-radius:3px;
+            -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            -webkit-border-radius:3px;
+            -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            background-color:#f7f7f7;
+            border:1px solid #ccc;
+            border-radius:3px;
+            box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            color:#333;
+            display:inline-block;
+            font-family:Arial,Helvetica,sans-serif;
+            font-size:11px;
+            line-height:1.4;
+            margin:0 .1em;
+            padding:.1em .6em;
+            text-shadow:0 1px 0 #fff;
+		}
+        .teclas4 {
+			padding: 3px 5px;
+            background: black;
+            color: white;
+            border-radius: 5px;
+		}
+        .teclas5 {
+			display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.1em 0.5em;
+            margin: 0 0.2em;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+            background-color: #f7f7f
+		}
+        .teclas6 {
+            font-family: Menlo,Consolas,Monaco,andale mono,Courier,Verdana,sans-serif;
+			font-size: 14px;
+            color: #4e4e4e;
+            background-color: #f7f7f7;
+            padding: 4px 7px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            box-shadow: 0 1px 0 rgba(0,0,0,.2),0 0 0 1px #fafafa inset,0 0 0 1px #fff inset;
+            margin: 0 1px;
+		}
+</style>
+
+```
+<style>
+		.teclas {
+			background-color: #333;
+			color: #fff;
+			padding: 5px;
+			border-radius: 5px;
+		}
+        .teclas2 {
+			background-color: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+            color: #333;
+            display: inline-block;
+            font-size: 0.85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
+		}
+        .teclas3 {
+			-moz-border-radius:3px;
+            -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            -webkit-border-radius:3px;
+            -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            background-color:#f7f7f7;
+            border:1px solid #ccc;
+            border-radius:3px;
+            box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+            color:#333;
+            display:inline-block;
+            font-family:Arial,Helvetica,sans-serif;
+            font-size:11px;
+            line-height:1.4;
+            margin:0 .1em;
+            padding:.1em .6em;
+            text-shadow:0 1px 0 #fff;
+		}
+        .teclas4 {
+			padding: 3px 5px;
+            background: black;
+            color: white;
+            border-radius: 5px;
+		}
+        .teclas5 {
+			display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.1em 0.5em;
+            margin: 0 0.2em;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+            background-color: #f7f7f
+		}
+        .teclas6 {
+            font-family: Menlo,Consolas,Monaco,andale mono,Courier,Verdana,sans-serif;
+			font-size: 14px;
+            color: #4e4e4e;
+            background-color: #f7f7f7;
+            padding: 4px 7px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            box-shadow: 0 1px 0 rgba(0,0,0,.2),0 0 0 1px #fafafa inset,0 0 0 1px #fff inset;
+            margin: 0 1px;
+		}
+</style>
+
+<p><kbd class="teclas">Ctrl</kbd> + <kbd class="teclas">S</kbd>.</p>
+
+<p><kbd class="teclas2">Ctrl</kbd> + <kbd class="teclas2">S</kbd>.</p>
+
+<p><kbd class="teclas3">Ctrl</kbd> + <kbd class="teclas3">S</kbd></p>
+
+<p><kbd class="teclas4">Ctrl</kbd> + <kbd class="teclas4">S</kbd></p>
+
+<p><kbd class="teclas6">Ctrl</kbd> + <kbd class="teclas6">S</kbd></p>
+
+<kbd class="teclas5">⌘</kbd>+<kbd class="teclas5">Opt</kbd>+<kbd class="teclas5">Shift</kbd>+<kbd class="teclas5">V</kbd>
+
+
+
+
+<br>
+
+# Mi marca
 ```
 <div>
   <p>
@@ -1311,7 +1545,7 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 <br>
 
-##  Shields
+## Shields
 ```
 https://shields.io/
 
