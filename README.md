@@ -1364,13 +1364,13 @@ source: https://spotify-github-profile.vercel.app/api/login
 ```
 <style>
 		.teclas {
-			background-color: #333;
-			color: #fff;
-			padding: 5px;
-			border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
 		}
-        .teclas2 {
-			background-color: #eee;
+    .teclas2 {
+			      background-color: #eee;
             border-radius: 3px;
             border: 1px solid #b4b4b4;
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
@@ -1382,8 +1382,8 @@ source: https://spotify-github-profile.vercel.app/api/login
             padding: 2px 4px;
             white-space: nowrap;
 		}
-        .teclas3 {
-			-moz-border-radius:3px;
+    .teclas3 {
+			      -moz-border-radius:3px;
             -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
             -webkit-border-radius:3px;
             -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
@@ -1400,14 +1400,14 @@ source: https://spotify-github-profile.vercel.app/api/login
             padding:.1em .6em;
             text-shadow:0 1px 0 #fff;
 		}
-        .teclas4 {
-			padding: 3px 5px;
+    .teclas4 {
+			      padding: 3px 5px;
             background: black;
             color: white;
             border-radius: 5px;
 		}
-        .teclas5 {
-			display: inline-block;
+    .teclas5 {
+			      display: inline-block;
             border: 1px solid #ccc;
             border-radius: 4px;
             padding: 0.1em 0.5em;
@@ -1415,9 +1415,9 @@ source: https://spotify-github-profile.vercel.app/api/login
             box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
             background-color: #f7f7f
 		}
-        .teclas6 {
+    .teclas6 {
             font-family: Menlo,Consolas,Monaco,andale mono,Courier,Verdana,sans-serif;
-			font-size: 14px;
+			      font-size: 14px;
             color: #4e4e4e;
             background-color: #f7f7f7;
             padding: 4px 7px;
@@ -1430,14 +1430,16 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 ```
 <style>
+
 		.teclas {
 			background-color: #333;
 			color: #fff;
 			padding: 5px;
 			border-radius: 5px;
 		}
-        .teclas2 {
-			background-color: #eee;
+    
+    .teclas2 {
+			      background-color: #eee;
             border-radius: 3px;
             border: 1px solid #b4b4b4;
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
@@ -1449,8 +1451,9 @@ source: https://spotify-github-profile.vercel.app/api/login
             padding: 2px 4px;
             white-space: nowrap;
 		}
-        .teclas3 {
-			-moz-border-radius:3px;
+    
+    .teclas3 {
+			     -moz-border-radius:3px;
             -moz-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
             -webkit-border-radius:3px;
             -webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
@@ -1467,14 +1470,16 @@ source: https://spotify-github-profile.vercel.app/api/login
             padding:.1em .6em;
             text-shadow:0 1px 0 #fff;
 		}
-        .teclas4 {
-			padding: 3px 5px;
+    
+    .teclas4 {
+			      padding: 3px 5px;
             background: black;
             color: white;
             border-radius: 5px;
 		}
-        .teclas5 {
-			display: inline-block;
+    
+    .teclas5 {
+			      display: inline-block;
             border: 1px solid #ccc;
             border-radius: 4px;
             padding: 0.1em 0.5em;
@@ -1482,9 +1487,10 @@ source: https://spotify-github-profile.vercel.app/api/login
             box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
             background-color: #f7f7f
 		}
-        .teclas6 {
+    
+    .teclas6 {
             font-family: Menlo,Consolas,Monaco,andale mono,Courier,Verdana,sans-serif;
-			font-size: 14px;
+			      font-size: 14px;
             color: #4e4e4e;
             background-color: #f7f7f7;
             padding: 4px 7px;
@@ -1493,11 +1499,12 @@ source: https://spotify-github-profile.vercel.app/api/login
             box-shadow: 0 1px 0 rgba(0,0,0,.2),0 0 0 1px #fafafa inset,0 0 0 1px #fff inset;
             margin: 0 1px;
 		}
+
 </style>
 
-<p><kbd class="teclas">Ctrl</kbd> + <kbd class="teclas">S</kbd>.</p>
+<p><kbd class="teclas">Ctrl</kbd> + <kbd class="teclas">S</kbd></p>
 
-<p><kbd class="teclas2">Ctrl</kbd> + <kbd class="teclas2">S</kbd>.</p>
+<p><kbd class="teclas2">Ctrl</kbd> + <kbd class="teclas2">S</kbd></p>
 
 <p><kbd class="teclas3">Ctrl</kbd> + <kbd class="teclas3">S</kbd></p>
 
@@ -1507,7 +1514,8 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 <kbd class="teclas5">⌘</kbd>+<kbd class="teclas5">Opt</kbd>+<kbd class="teclas5">Shift</kbd>+<kbd class="teclas5">V</kbd>
 
-
+<p><kbd class="teclas" style = "background-color:#333; color: #fff padding: 5px;
+			border-radius:5px;">Ctrl</kbd> + <kbd class="teclas">w</kbd></p>
 
 
 <br>
