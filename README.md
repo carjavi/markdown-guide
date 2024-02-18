@@ -1595,9 +1595,9 @@ Hardware-ESP32
 
 ## Titule & Footer
 ```
-<p align="center"><img src="./img/logo.png" height="100" alt=" " /></p>
+<p align="center"><img src="./img/logo.png" width="100" height="100"  alt=" " /></p>
 <h1 align="center"> Titule </h1> 
-<h4 align="right">Month 23</h4>
+<h4 align="right">Month 24</h4>
 
 <br>
 
