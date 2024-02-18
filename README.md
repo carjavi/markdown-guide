@@ -48,7 +48,7 @@
 - [HTML  Tag](#html--tag)
 - [With custom styles (Only HTML, not Markdown)](#with-custom-styles-only-html-not-markdown)
 - [Mi marca](#mi-marca)
-  - [Etiqueta normalizada para mi código como desarrollador](#etiqueta-normalizada-para-mi-código-como-desarrollador)
+  - [Etiqueta normalizada para mi código como desarrollador (sample)](#etiqueta-normalizada-para-mi-código-como-desarrollador-sample)
   - [Presentación ASCII para mis archivos .sh](#presentación-ascii-para-mis-archivos-sh)
   - [Start \& Sponsors](#start--sponsors)
   - [Shields](#shields)
@@ -1469,17 +1469,20 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 <br>
 
-## Etiqueta normalizada para mi código como desarrollador
+## Etiqueta normalizada para mi código como desarrollador (sample)
 ```
 /** 
- * @fileoverview 
- * @version  1.0
- * @author  carjavi <carjavi@hotmail.com>
- * @license copyright www.instintodigital.net, sep 2023 
- * @Library
- * @Commands
- * @see https://www..com/
- * @Note 
+  @fileoverview 
+      ver 0.1 XX/2024
+  @Author  carjavi <carjavi@hotmail.com>
+  @license copyright www.instintodigital.net, Month 2024 
+  @Commands
+  @Note 
+  @Module_npm
+    sudo npm i node-gyp
+    sudo npm i coffee-script
+    sudo npm i i2c
+    sudo npm i @abandonware/i2c@^0.2.4-0
 **/
 ```
 <br>
