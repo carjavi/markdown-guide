@@ -1620,9 +1620,13 @@ Hardware-ESP32
 <p align="center"><img src="./img/logo.png" width="100" height="100"  alt=" " /></p>
 <h1 align="center"> Titule </h1> 
 <h4 align="right">Month 24</h4>
+
 <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
 <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
+
 <br>
+
+
 
 <br>
 
@@ -1634,12 +1638,6 @@ carjavi@hotmail.com <br>
     <a href="https://instintodigital.net/" target="_blank"><img src="./img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
 ```
-
-
-
-
-
-
 
 
 
