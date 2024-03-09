@@ -3,6 +3,7 @@
 <h4 align="right">Aug 22</h4>
 
 
+- [Comenzando 🚀](#comenzando-)
 - [Header](#header)
 - [Encabezado nivel 1](#encabezado-nivel-1)
   - [Encabezado nivel 2](#encabezado-nivel-2)
@@ -42,6 +43,7 @@
   - [Authors](#authors)
 - [License](#license)
 - [Insert Animation AR into HTML (no Markdown)](#insert-animation-ar-into-html-no-markdown)
+  - [Autores](#autores)
 - [My style](#my-style)
   - [listening on Spotify now!](#listening-on-spotify-now)
   - [Contador de visitas](#contador-de-visitas)
@@ -54,7 +56,10 @@
   - [Shields](#shields)
   - [Titule \& Footer](#titule--footer)
 
+<br>
+<br>
 
+# Comenzando 🚀
 
 # Header
 
@@ -1304,6 +1309,20 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 <br>
 
+## Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| :---: | :---: | :---: |
+
+```
+
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| :---: | :---: | :---: |
+```
+
+
+<br>
+
 # My style
 
 ## listening on Spotify now!
@@ -1601,7 +1620,8 @@ Hardware-ESP32
 <p align="center"><img src="./img/logo.png" width="100" height="100"  alt=" " /></p>
 <h1 align="center"> Titule </h1> 
 <h4 align="right">Month 24</h4>
-
+<img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
+<img src="https://img.shields.io/badge/OS-Windows%2011-blue">
 <br>
 
 <br>
