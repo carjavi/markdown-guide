@@ -16,6 +16,8 @@
   - [Additional Line Spacing](#additional-line-spacing)
   - [Blockquotes](#blockquotes)
   - [Admonitions](#admonitions)
+- [Alertas](#alertas)
+- [Footnote](#footnote)
 - [Table of contents](#table-of-contents)
 - [Links](#links)
   - [Linking to Heading](#linking-to-heading)
@@ -49,6 +51,7 @@
   - [Contador de visitas](#contador-de-visitas)
 - [HTML  Tag](#html--tag)
 - [With custom styles (Only HTML, not Markdown)](#with-custom-styles-only-html-not-markdown)
+- [Vincular a otro documento markdown](#vincular-a-otro-documento-markdown)
 - [Mi marca](#mi-marca)
   - [Etiqueta normalizada para mi código como desarrollador (sample)](#etiqueta-normalizada-para-mi-código-como-desarrollador-sample)
   - [Presentación ASCII para mis archivos .sh](#presentación-ascii-para-mis-archivos-sh)
@@ -149,6 +152,67 @@ This is how you add additional line spacing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 > :warning: **Warning:** Do not push the big red button.<br>
 > :memo: **Note:** Sunrises are beautiful.<br>
 > :bulb: **Tip:** Remember to appreciate the little things in life.<br>
+
+<br>
+
+# Alertas
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+```
+> > [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+```
+<br>
+
+# Footnote
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+```
+
 <br>
 
 # Table of contents
@@ -1469,8 +1533,12 @@ source: https://spotify-github-profile.vercel.app/api/login
     <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/key.png" height="250" alt=""></a>
 </p>
 
+<br>
 
-
+# Vincular a otro documento markdown
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
 
 <br>
 
@@ -1619,17 +1687,35 @@ Hardware-ESP32
 
 
 ## Titule & Footer
-```
+```bash
 <p align="center"><img src="./img/logo.png" width="100" height="100"  alt=" " /></p>
 <h1 align="center"> Titule </h1> 
 <h4 align="right">Month 24</h4>
 
 <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
 <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+<img src="https://img.shields.io/badge/Hardware-ESP32-red">
 
 <br>
 
+# Table of contents
+- [Table of contents](#Table-of-contents)
+- [Install](#Install)
+- [Troubleshooting](#Troubleshooting)
 
+<br>
+
+# Install
+```bash```
+> :memo: **Note:*
+> :bulb: **Tip:**
+
+
+<br>
+
+# Troubleshooting
+> :warning: **Warning:**
 
 <br>
 
