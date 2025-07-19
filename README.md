@@ -55,6 +55,8 @@
 - [Mi marca](#mi-marca)
   - [Etiqueta normalizada para mi código como desarrollador (sample)](#etiqueta-normalizada-para-mi-código-como-desarrollador-sample)
   - [Presentación ASCII para mis archivos .sh](#presentación-ascii-para-mis-archivos-sh)
+- [Contador de visitas y estadísticas](#contador-de-visitas-y-estadísticas)
+  - [Link de donativo](#link-de-donativo)
   - [Start \& Sponsors](#start--sponsors)
   - [Shields](#shields)
   - [Titule \& Footer](#titule--footer)
@@ -1624,20 +1626,75 @@ echo "Install and ..."
 echo "------------------------------"
 echo
 ```
+<br>
+
+# Contador de visitas y estadísticas
+<p align="center">
+
+  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) \
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) \
+  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) \
+  ![GitHub forks](https://img.shields.io/github/forks/tuusuario/mi-proyecto) 
+
+  <!-- Counter Visits & Estadísticas --> 
+  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) \
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) \
+  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) \
+  ![GitHub forks](https://img.shields.io/github/forks/carjavi/carjavi)
+
+</p>
+
+```
+<p align="center">
+
+  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) \
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) \
+  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) \
+  ![GitHub forks](https://img.shields.io/github/forks/tuusuario/mi-proyecto) 
+
+  <!-- Counter Visits & Estadísticas --> 
+  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) \
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) \
+  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) \
+  ![GitHub forks](https://img.shields.io/github/forks/carjavi/carjavi)
+
+</p>
+
+```
+
+<br>
+
+## Link de donativo
+
+[![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/carjavi) - You can make one-time donations via PayPal.
+
+```
+[![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/carjavi) - You can make one-time donations via PayPal.
+```
+
+<br>
 
 ## Start & Sponsors
 
+<p>
+
+  [![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
+
+  [![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
+
+</p>
+
+```
+<p>
+
+  [![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
+
+  [![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
+
+</p>
 ```
 
-[![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
-
-```
-
-[![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
-
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
 
 <br>
 
@@ -1692,10 +1749,12 @@ Hardware-ESP32
 <h1 align="center"> Titule </h1> 
 <h4 align="right">Month 24</h4>
 
-<img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
-<img src="https://img.shields.io/badge/OS-Windows%2011-blue">
-<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
-<img src="https://img.shields.io/badge/Hardware-ESP32-red">
+<p>
+  <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
+  <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
+  <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+  <img src="https://img.shields.io/badge/Hardware-ESP32-red">
+</p>
 
 <br>
 
@@ -1708,7 +1767,7 @@ Hardware-ESP32
 
 # Install
 ```bash```
-> :memo: **Note:*
+> :memo: **Note:**
 > :bulb: **Tip:**
 
 
@@ -1720,7 +1779,7 @@ Hardware-ESP32
 <br>
 
 ---
-Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
+Copyright &copy; 2025 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
 <p align="center">
