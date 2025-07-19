@@ -1631,15 +1631,15 @@ echo
 # Contador de visitas y estadísticas
 <p align="center">
 
-  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) \
-  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) \
-  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) \
+  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) 
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) 
+  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) 
   ![GitHub forks](https://img.shields.io/github/forks/tuusuario/mi-proyecto) 
 
   <!-- Counter Visits & Estadísticas --> 
-  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) \
-  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) \
-  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) \
+  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) 
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) 
+  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) 
   ![GitHub forks](https://img.shields.io/github/forks/carjavi/carjavi)
 
 </p>
@@ -1647,20 +1647,21 @@ echo
 ```
 <p align="center">
 
-  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) \
-  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) \
-  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) \
+  ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) 
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=tuusuario.mi-proyecto) 
+  ![GitHub stars](https://img.shields.io/github/stars/tuusuario/mi-proyecto) 
   ![GitHub forks](https://img.shields.io/github/forks/tuusuario/mi-proyecto) 
 
   <!-- Counter Visits & Estadísticas --> 
-  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) \
-  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) \
-  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) \
+  ![Profile views](https://komarev.com/ghpvc/?username=carjavi&color=blue) 
+  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=carjavi.carjavi) 
+  ![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi) 
   ![GitHub forks](https://img.shields.io/github/forks/carjavi/carjavi)
 
 </p>
 
 ```
+con ```<p align="center"><p>``` se alinean en una fila, no debe haber salto de linea
 
 <br>
 
@@ -1676,23 +1677,22 @@ echo
 
 ## Start & Sponsors
 
-<p>
+<p align="center">
 
   [![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
-
   [![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
 
 </p>
 
 ```
-<p>
+<p align="center">
 
   [![GitHub stars](https://img.shields.io/github/stars/carjavi/carjavi?style=flat&logo=github&color=orange)](https://github.com/bblanchon/ArduinoJson/stargazers)
-
   [![GitHub Sponsors](https://img.shields.io/github/sponsors/bblanchon?logo=github&color=orange)](https://github.com/sponsors/carjavi)
 
 </p>
 ```
+con ```<p align="center"><p>``` se alinean en una fila, no debe haber salto de linea
 
 
 
@@ -1733,7 +1733,6 @@ Hardware-ESP32
 <img src="https://img.shields.io/badge/Hardware-ESP32-red">
 
 
-
 4. Node ver ----------------------------------------
 <img src="https://img.shields.io/badge/Node%20-V18.7.0-green">
 
@@ -1747,7 +1746,7 @@ Hardware-ESP32
 ```bash
 <p align="center"><img src="./img/logo.png" width="100" height="100"  alt=" " /></p>
 <h1 align="center"> Titule </h1> 
-<h4 align="right">Month 24</h4>
+<h4 align="right">Month 25</h4>
 
 <p>
   <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
@@ -1779,7 +1778,7 @@ Hardware-ESP32
 <br>
 
 ---
-Copyright &copy; 2025 [carjavi](https://github.com/carjavi). <br>
+Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
 <p align="center">
