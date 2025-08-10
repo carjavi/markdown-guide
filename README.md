@@ -1852,9 +1852,14 @@ Hardware-ESP32
 <br>
 
 ---
-Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
-```www.instintodigital.net``` <br>
-carjavi@hotmail.com <br>
+<br>
+
+<div>
+  <p>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 <a href="www.instintodigital.net" title="www.instintodigital.net">Instinto Digital</a>  <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
+  </p>
+</div>
+
 <p align="center">
     <a href="https://instintodigital.net/" target="_blank"><img src="./img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
@@ -1867,9 +1872,17 @@ carjavi@hotmail.com <br>
 <br>
 
 ---
-Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
-```www.instintodigital.net``` <br>
-carjavi@hotmail.com <br>
+<br>
+
+<div>
+  <p>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 <a href="www.instintodigital.net" title="www.instintodigital.net">Instinto Digital</a>  <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
+  </p>
+</div>
+
+
+
+
 <p align="center">
     <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/markdown-guide/master/img/developer.png" height="100" alt="www.instintodigital.net"></a>
 </p>
