@@ -1852,7 +1852,6 @@ Hardware-ESP32
 <br>
 
 ---
-<br>
 
 <div>
   <p>
@@ -1872,7 +1871,6 @@ Hardware-ESP32
 <br>
 
 ---
-<br>
 
 <div>
   <p>
