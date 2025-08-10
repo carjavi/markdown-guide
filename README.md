@@ -1855,7 +1855,7 @@ Hardware-ESP32
 
 <div>
   <p>
-    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 <a href="www.instintodigital.net" title="www.instintodigital.net">Instinto Digital</a>  <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 Instinto Digital <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
   </p>
 </div>
 
@@ -1874,11 +1874,9 @@ Hardware-ESP32
 
 <div>
   <p>
-    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 <a href="www.instintodigital.net" title="www.instintodigital.net">Instinto Digital</a>  <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
+    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 Instinto Digital <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
   </p>
 </div>
-
-
 
 
 <p align="center">
