@@ -55,7 +55,9 @@
 - [Mi marca](#mi-marca)
   - [Etiqueta normalizada para mi código como desarrollador (sample)](#etiqueta-normalizada-para-mi-código-como-desarrollador-sample)
   - [Presentación ASCII para mis archivos .sh](#presentación-ascii-para-mis-archivos-sh)
-- [Contador de visitas y estadísticas](#contador-de-visitas-y-estadísticas)
+  - [Presentación ASCII para mis archivos .sh (ver2)](#presentación-ascii-para-mis-archivos-sh-ver2)
+- [Contador de visitas, estadísticas y mas...](#contador-de-visitas-estadísticas-y-mas)
+  - [Mostrar ultima version del Repositorio](#mostrar-ultima-version-del-repositorio)
   - [Link de donativo](#link-de-donativo)
   - [Start \& Sponsors](#start--sponsors)
   - [Shields](#shields)
@@ -1581,7 +1583,7 @@ source: https://spotify-github-profile.vercel.app/api/login
 
 ## Presentación ASCII para mis archivos .sh
 
-```
+```bash
 #!/usr/bin/env bash
 
 # Define colors
@@ -1591,7 +1593,6 @@ readonly ANSI_YELLOW="\033[0;33m"
 readonly ANSI_RASPBERRY="\033[0;35m"
 readonly ANSI_ERROR="\033[1;37;41m"
 readonly ANSI_RESET="\033[m"
-readonly RASPAP_LATEST="2.0"
 
 # Outputs a welcome message
 function display_welcome() {
@@ -1628,7 +1629,66 @@ echo
 ```
 <br>
 
-# Contador de visitas y estadísticas
+## Presentación ASCII para mis archivos .sh (ver2)
+
+```bash
+#!/usr/bin/env bash
+
+# Define colors
+readonly ANSI_RED="\033[0;31m"
+readonly ANSI_GREEN="\033[0;32m"
+readonly ANSI_YELLOW="\033[0;33m"
+readonly ANSI_RASPBERRY="\033[0;35m"
+readonly ANSI_ERROR="\033[1;37;41m"
+readonly ANSI_RESET="\033[m"
+
+# Outputs a welcome message
+function display_welcome() {
+echo -e "${ANSI_RASPBERRY}\n"
+echo -e "             ..............................       ...............                  "
+echo -e "       .;d0XWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW,     cWWWWWWWWWWWWWWWWXk:              "
+echo -e "     .kWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWN.    cWWWWWWWWWWWWWWWWWWWX.            "
+echo -e "    'NWWWWWWWKxollcccccccccccKWWWWWW0lWWWWWWX.   cWWWWWWWO.....dWWWWWW:            "
+echo -e "    OWWWWWWWl               ,WWWWWWK. lWWWWWWK.  cWWWWWWWN00000NWWWWWO             "
+echo -e "    dWWWWWWWd              'WWWWWWWo;;;XWWWWWW0  cWWWWWWWWWWWWWWWKxc.              "
+echo -e "     0WWWWWWWWKOOkkkkkkkkx.XWWWWWWWWWWWWWWWWWWWx cWWWWWWWXXWWWWWWXkkkkkkkkkkk.     "
+echo -e "      :0WWWWWWWWWWWWWWWWWWXWWWWWWWdoooooNWWWWWWWdcWWWWWWWk ,kWWWWWWWWWWWWWWWW'     "
+echo -e "        .;ok0XNNWWWWWWWWWWWWWWWWW:      .XWWWWWWW0WWWWWWWx   .lKWWWWWWWWWWWWW'     "
+echo -e "                                                                                   " 
+echo -e "            '0000000000000000000000000'k0000000l        O000000000000000           "
+echo -e "            ;WWWWWWWWWWWWWWWWWWWWWWWWWX:NWWWWWWW;      kWWWWWWWNoWWWWWWW.          "
+echo -e "            ;WWWWWWWXXXKXWWWWWWWKWWWWWWK;NWWWWWWW.    lWWWWWWWN',WWWWWWW.          "
+echo -e "            ;WWWWWWW.   kWWWWWWd dWWWWWW0:WWWWWWWK   ;WWWWWWWW, ,WWWWWWW.          "
+echo -e "            ;WWWWWWW.  oWWWWWWd   kWWWWWWk;WWWWWWWk .NWWWWWWW;  ,WWWWWWW.          "
+echo -e "            ;WWWWWWW. cWWWWWWWWNNNWWWWWWWWx:WWWWWWWo0WWWWWWW:   ,WWWWWWW.          "
+echo -e "            ;WWWWWWW.;WWWWWWWWNNNNNWWWWWWWWllWWWWWWWWWWWWWWc    ,WWWWWWW.          "
+echo -e "            :WWWWWWW:NWWWWWWX.     ,WWWWWWWW:oWWWWWWWWWWWWo     ,WWWWWWW.          "
+echo -e "        cookNWWWWWWW;;;;;;;;.       .;;;;;;;' ,;;;;;;;;;;,       ;;;;;;;           "
+echo -e "        NWWWWWWWWWWo                                                               "
+echo -e "        NWWWWWX0xc.                                                                "
+echo -e "        ....                                                                       "
+echo -e "${ANSI_GREEN}"
+echo -e "The Quick Installer will guide you through a few easy steps${ANSI_RESET}"
+echo -e "\033[1;32m***************************************************************$*\033[m"
+echo -e "\n\n"
+}
+
+# calling Titulo 
+display_welcome
+
+#sleep 3seg
+sleep 3
+
+echo
+echo "------------------------------"
+echo "Install and ..."
+echo "------------------------------"
+echo
+```
+
+<br>
+
+# Contador de visitas, estadísticas y mas...
 <p align="center">
 
   ![Profile views](https://komarev.com/ghpvc/?username=tuusuario&color=brightgreen) 
@@ -1662,6 +1722,20 @@ echo
 
 ```
 con ```<p align="center"><p>``` se alinean en una fila, no debe haber salto de linea
+
+<br>
+
+## Mostrar ultima version del Repositorio
+
+[![Latest Stable](https://img.shields.io/github/v/release/carjavi/releases-manager-git.svg?label=Latest%20Stable)
+![Date](https://img.shields.io/github/release-date/carjavi/releases-manager-git?label=Date)](https://github.com/carjavi/releases-manager-git/releases/latest)
+
+
+```bash
+[![Latest Stable](https://img.shields.io/github/v/release/carjavi/REPO.svg?label=Latest%20Stable)
+![Date](https://img.shields.io/github/release-date/carjavi/REPO?label=Date)](https://github.com/carjavi/REPO/releases/latest)
+# Reemplaza REPO por el nombre exacto de tu repositorio 
+```
 
 <br>
 
